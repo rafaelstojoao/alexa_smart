@@ -1,0 +1,361 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "modo conversa",
+      "intents": [
+        {
+          "name": "ConversaIntent",
+          "slots": [
+            {
+              "name": "texto",
+              "type": "TEXTO_LIVRE"
+            }
+          ],
+          "samples": [
+            "{texto}"
+          ]
+        },
+        {
+          "name": "PesquisaIntent",
+          "slots": [
+            {
+              "name": "consulta",
+              "type": "AMAZON.SearchQuery"
+            }
+          ],
+          "samples": [
+            "pesquise {consulta}",
+            "pesquise sobre {consulta}",
+            "pesquisa sobre {consulta}",
+            "pesquisa na internet {consulta}",
+            "procure {consulta}",
+            "procura sobre {consulta}",
+            "busque {consulta}",
+            "busca na internet {consulta}",
+            "dá uma pesquisada sobre {consulta}",
+            "quais as últimas notícias sobre {consulta}",
+            "notícias sobre {consulta}"
+          ]
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": [
+            "tchau",
+            "até mais",
+            "até logo",
+            "chega",
+            "pode parar",
+            "encerrar conversa",
+            "falou"
+          ]
+        },
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": [
+            "como funciona",
+            "o que você sabe fazer"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        }
+      ],
+      "types": [
+        {
+          "name": "TEXTO_LIVRE",
+          "values": [
+            {
+              "name": {
+                "value": "oi tudo bem"
+              }
+            },
+            {
+              "name": {
+                "value": "me conta uma curiosidade"
+              }
+            },
+            {
+              "name": {
+                "value": "qual a capital da austrália"
+              }
+            },
+            {
+              "name": {
+                "value": "o que você acha disso"
+              }
+            },
+            {
+              "name": {
+                "value": "me explica como funciona um motor elétrico"
+              }
+            },
+            {
+              "name": {
+                "value": "quem ganhou o jogo do flamengo ontem"
+              }
+            },
+            {
+              "name": {
+                "value": "me fala uma piada"
+              }
+            },
+            {
+              "name": {
+                "value": "quanto é vinte e três vezes quarenta"
+              }
+            },
+            {
+              "name": {
+                "value": "me ajuda a pensar num nome para o meu cachorro"
+              }
+            },
+            {
+              "name": {
+                "value": "como faço um bolo de cenoura"
+              }
+            },
+            {
+              "name": {
+                "value": "por que o céu é azul"
+              }
+            },
+            {
+              "name": {
+                "value": "qual a diferença entre vírus e bactéria"
+              }
+            },
+            {
+              "name": {
+                "value": "eu estou cansado hoje"
+              }
+            },
+            {
+              "name": {
+                "value": "me recomenda um filme de ficção científica"
+              }
+            },
+            {
+              "name": {
+                "value": "sim"
+              }
+            },
+            {
+              "name": {
+                "value": "não"
+              }
+            },
+            {
+              "name": {
+                "value": "continua"
+              }
+            },
+            {
+              "name": {
+                "value": "fala mais sobre isso"
+              }
+            },
+            {
+              "name": {
+                "value": "e depois"
+              }
+            },
+            {
+              "name": {
+                "value": "por quê"
+              }
+            },
+            {
+              "name": {
+                "value": "como assim"
+              }
+            },
+            {
+              "name": {
+                "value": "legal"
+              }
+            },
+            {
+              "name": {
+                "value": "interessante"
+              }
+            },
+            {
+              "name": {
+                "value": "me conta mais"
+              }
+            },
+            {
+              "name": {
+                "value": "o que aconteceu no mundo hoje"
+              }
+            },
+            {
+              "name": {
+                "value": "quais as notícias de tecnologia"
+              }
+            },
+            {
+              "name": {
+                "value": "traduz bom dia para o inglês"
+              }
+            },
+            {
+              "name": {
+                "value": "me dá uma dica de produtividade"
+              }
+            },
+            {
+              "name": {
+                "value": "estou pensando em aprender python por onde começo"
+              }
+            },
+            {
+              "name": {
+                "value": "qual o melhor jeito de economizar dinheiro"
+              }
+            },
+            {
+              "name": {
+                "value": "quanto tempo leva para chegar em marte"
+              }
+            },
+            {
+              "name": {
+                "value": "quem foi santos dumont"
+              }
+            },
+            {
+              "name": {
+                "value": "resume a história do brasil em poucas palavras"
+              }
+            },
+            {
+              "name": {
+                "value": "vamos jogar um jogo de perguntas"
+              }
+            },
+            {
+              "name": {
+                "value": "me faz uma pergunta difícil"
+              }
+            },
+            {
+              "name": {
+                "value": "eu acho que a resposta é a segunda opção"
+              }
+            },
+            {
+              "name": {
+                "value": "o que significa a palavra efêmero"
+              }
+            },
+            {
+              "name": {
+                "value": "me lembra o que eu falei antes"
+              }
+            },
+            {
+              "name": {
+                "value": "escreve um poema curto sobre a chuva"
+              }
+            },
+            {
+              "name": {
+                "value": "como está o dólar hoje"
+              }
+            },
+            {
+              "name": {
+                "value": "qual a previsão do tempo para amanhã em são paulo"
+              }
+            },
+            {
+              "name": {
+                "value": "explica inteligência artificial para uma criança"
+              }
+            },
+            {
+              "name": {
+                "value": "meu dia foi difícil no trabalho"
+              }
+            },
+            {
+              "name": {
+                "value": "você conhece algum livro bom de fantasia"
+              }
+            },
+            {
+              "name": {
+                "value": "qual a sua opinião sobre café"
+              }
+            },
+            {
+              "name": {
+                "value": "quantos habitantes tem o japão"
+              }
+            },
+            {
+              "name": {
+                "value": "me dá uma receita rápida para o jantar"
+              }
+            },
+            {
+              "name": {
+                "value": "a primeira"
+              }
+            },
+            {
+              "name": {
+                "value": "a segunda"
+              }
+            },
+            {
+              "name": {
+                "value": "pode ser"
+              }
+            },
+            {
+              "name": {
+                "value": "tanto faz"
+              }
+            },
+            {
+              "name": {
+                "value": "concordo"
+              }
+            },
+            {
+              "name": {
+                "value": "discordo totalmente"
+              }
+            },
+            {
+              "name": {
+                "value": "isso mesmo"
+              }
+            },
+            {
+              "name": {
+                "value": "não foi isso que eu perguntei"
+              }
+            }
+          ]
+        }
+      ],
+      "modelConfiguration": {
+        "fallbackIntentSensitivity": {
+          "level": "LOW"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,7 @@
+# Chaves de API: NUNCA vão para o git
+lambda/segredos.py
+.env
+__pycache__/
+*.pyc
+.venv/
+.ask/

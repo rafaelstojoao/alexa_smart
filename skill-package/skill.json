@@ -1,0 +1,42 @@
+{
+  "manifest": {
+    "manifestVersion": "1.0",
+    "publishingInformation": {
+      "locales": {
+        "pt-BR": {
+          "name": "Modo Conversa",
+          "summary": "Converse livremente com uma IA, com pesquisa na internet.",
+          "description": "Uma assistente de conversa que usa um modelo de linguagem para responder, pesquisar e manter o contexto da conversa.",
+          "examplePhrases": [
+            "Alexa, abre modo conversa",
+            "Alexa, pergunta ao modo conversa por que o céu é azul"
+          ],
+          "keywords": [
+            "conversa",
+            "ia",
+            "assistente"
+          ]
+        }
+      },
+      "isAvailableWorldwide": false,
+      "distributionCountries": [
+        "BR"
+      ],
+      "testingInstructions": "Uso pessoal, em modo de desenvolvimento.",
+      "category": "EDUCATION_AND_REFERENCE"
+    },
+    "apis": {
+      "custom": {}
+    },
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "usesPersonalInfo": false,
+      "isChildDirected": false,
+      "isExportCompliant": true,
+      "containsAds": false,
+      "locales": {
+        "pt-BR": {}
+      }
+    }
+  }
+}
